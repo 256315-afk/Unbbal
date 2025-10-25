@@ -231,6 +231,7 @@ const App: React.FC = () => {
       <header className="text-center mb-4">
         <h1 className="text-4xl md:text-5xl font-bold text-yellow-300 tracking-wider">운빨망겜</h1>
         <p className="text-gray-400">당신의 운을 시험하세요</p>
+        <p className="text-gray-500 text-sm mt-1">제작자: 안재원</p>
       </header>
 
       <div className="flex flex-col items-center gap-4 mb-4">
@@ -296,9 +297,6 @@ const App: React.FC = () => {
           </div>
         </div>
       </main>
-      <footer className="text-center text-gray-500 text-sm py-4">
-        제작자: 안재원
-      </footer>
       <style>{`
         @keyframes fade-in {
           from { opacity: 0; transform: scale(0.9); }
